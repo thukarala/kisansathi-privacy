@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KisanSathi Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Source Sans Pro", "Segoe UI", system-ui, -apple-system, sans-serif;
+      --primary: #1b5e20;
+      --accent: #ff9800;
+      --text: #1f2933;
+      --muted: #4a5568;
+      --border: #e2e8f0;
+      --bg: #f8fafc;
+      --card: #ffffff;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary), #2e7d32);
+      color: #fff;
+      padding: 64px 24px 80px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+    header p {
+      margin-top: 12px;
+      font-size: 1.1rem;
+      color: rgba(255, 255, 255, 0.9);
+    }
+    main {
+      margin-top: -48px;
+      padding: 0 24px 64px;
+    }
+    .card {
+      max-width: 860px;
+      margin: 0 auto 24px;
+      background: var(--card);
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      padding: 40px;
+      box-shadow: 0 24px 60px rgba(27, 94, 32, 0.08);
+    }
+    h2 {
+      color: var(--primary);
+      margin-top: 0;
+    }
+    h3 {
+      color: var(--accent);
+      margin-bottom: 8px;
+      margin-top: 32px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(27, 94, 32, 0.12);
+      color: var(--primary);
+      font-weight: 600;
+      font-size: 0.85rem;
+    }
+    footer {
+      text-align: center;
+      padding: 32px 16px 48px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    @media (max-width: 640px) {
+      header {
+        padding: 48px 16px 72px;
+      }
+      header h1 {
+        font-size: 2.1rem;
+      }
+      .card {
+        padding: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">KisanSathi</div>
+    <h1>Privacy Policy</h1>
+    <p>Transparent data practices for farmers using the KisanSathi marketplace.</p>
+  </header>
+  <main>
+    <section class="card">
+      <h2>1. Overview</h2>
+      <p>KisanSathi ("we", "our", or "the App") helps farmers discover, buy, sell, and rent agricultural equipment. We only collect data required to deliver the service and keep it secure using Google Firebase, AWS S3, and verified OTP providers. We never sell personal data.</p>
+      <div class="meta">
+        <span><strong>Effective Date:</strong> 27 December 2025</span>
+        <span><strong>Contact:</strong> <a href="mailto:carvind703@gmail.com">carvind703@gmail.com</a></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>2. Data We Collect & Purpose</h2>
+      <h3>Phone number & OTP metadata</h3>
+      <p>Collected during login to verify identity, secure accounts, and prevent fraud.</p>
+
+      <h3>Approximate location</h3>
+      <p>Captured only when you enable nearby ads or choose to share location. Used to show listings around you and deliver location-aware notifications.</p>
+
+      <h3>User-generated content</h3>
+      <p>Photos, videos, descriptions, prices, and messages you upload. Used to display listings, power search, and help other users contact you.</p>
+
+      <h3>Device identifiers & push tokens</h3>
+      <p>Firebase Cloud Messaging tokens and device model info to send real-time alerts and secure sessions.</p>
+
+      <h3>Diagnostics, crash, and performance data</h3>
+      <p>Logged through Firebase Crashlytics/Performance to detect crashes, ANRs, and latency, helping us keep the app reliable.</p>
+    </section>
+
+    <section class="card">
+      <h2>3. How We Use & Share Data</h2>
+      <ul>
+        <li><strong>Firebase Auth, Firestore, Storage:</strong> account management, listing data, chat, media hosting.</li>
+        <li><strong>AWS S3 (optional deployments):</strong> durable storage for large media files.</li>
+        <li><strong>OTP provider (e.g., Twilio):</strong> receives phone number + OTP text solely to deliver verification codes.</li>
+        <li><strong>Firebase Cloud Messaging:</strong> routes push notifications using device tokens.</li>
+        <li><strong>Crashlytics & Performance:</strong> process crash stacks and device context for debugging.</li>
+      </ul>
+      <p>Service providers act under confidentiality agreements and cannot sell or reuse your data. We do not sell personal information.</p>
+    </section>
+
+    <section class="card">
+      <h2>4. Data Retention & Deletion</h2>
+      <ul>
+        <li>Account data persists until you delete your account or request deletion.</li>
+        <li>Listings and media remain until removed by you; backups purge within 90 days.</li>
+        <li>Crash logs and analytics aggregates are stored for up to 13 months.</li>
+      </ul>
+      <p>You can request deletion via the in-app option or by emailing <a href="mailto:carvind703@gmail.com">carvind703@gmail.com</a>. We respond within 30 days.</p>
+    </section>
+
+    <section class="card">
+      <h2>5. Security</h2>
+      <p>All traffic uses HTTPS/TLS. Firebase App Check and Google Play Integrity protect against unauthorized access. Access to Firebase and AWS consoles requires MFA, logged activity, and least-privilege roles.</p>
+    </section>
+
+    <section class="card">
+      <h2>6. Children</h2>
+      <p>KisanSathi targets adult farmers (18+). We do not knowingly collect data from children. If you believe a child has provided data, contact us for removal.</p>
+    </section>
+
+    <section class="card">
+      <h2>7. Changes</h2>
+      <p>We may update this policy for legal or operational reasons. Material updates will be posted here with a revised effective date.</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Email <a href="mailto:carvind703@gmail.com">carvind703@gmail.com</a> for privacy questions, data access, or deletion requests.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 KisanSathi. All rights reserved.
+  </footer>
+</body>
+</html>
