@@ -2,4 +2,8 @@
   from = "/app-ads.txt"
   to = "/app-ads.txt"
   status = 200
-  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
